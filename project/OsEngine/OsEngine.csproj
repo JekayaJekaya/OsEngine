@@ -1051,6 +1051,7 @@
       <DependentUpon>TestBotConnectionParams.xaml</DependentUpon>
     </Compile>
     <Compile Include="Robots\AutoTestBots\TestBotOpenAndCanselOrders.cs" />
+    <Compile Include="Robots\Best\MyPatternFlatV1.cs" />
     <Compile Include="Robots\BotCreateUi2.xaml.cs">
       <DependentUpon>BotCreateUi2.xaml</DependentUpon>
     </Compile>
@@ -1902,9 +1903,7 @@
     <Resource Include="Images\MainWIndow\alor1.png" />
     <Resource Include="Images\MainWIndow\alor2.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Robots\PEV_Bot\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Grpc.Core.2.46.6\build\net45\Grpc.Core.targets" Condition="Exists('..\packages\Grpc.Core.2.46.6\build\net45\Grpc.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
